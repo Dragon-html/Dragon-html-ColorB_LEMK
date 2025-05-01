@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+#controls {
+  margin-bottom: 20px;
+}
+
+#board {
+  display: grid;
+  gap: 2px;
+  justify-content: center;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  background-color: #eee;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+
+.player1 {
+  background-color: red;
+}
+
+.player2 {
+  background-color: blue;
+}
